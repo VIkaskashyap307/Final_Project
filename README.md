@@ -1,4 +1,4 @@
-# Final_Project-Checkpint 1
+# Final_Project-Checkpoint 1
 
 Docker Images
 1. Terminal : https://hub.docker.com/r/vikaskashyap307/terminal
