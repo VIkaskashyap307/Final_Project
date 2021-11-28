@@ -7,6 +7,7 @@ Docker Images
 4. Apache Spark: https://hub.docker.com/r/bitnami/spark
 5. Jupyter Notebook: https://hub.docker.com/r/jupyter/scipy-notebook
 6. Sonarqube: https://hub.docker.com/_/sonarqube
+7. GUI : https://hub.docker.com/r/vikaskashyap307/terminal_gui
 
 Steps for Docker image creation for terminal
 1. docker buildx build -t vikaskashyap307/terminal_project . --platform linux/amd64
@@ -56,3 +57,13 @@ Repeat same steps except steps 5,6,7 for all other services.
 
 Terminal Application 
 1. 'kubectl run -i --tty terminal-app --image=vikaskashyap307/terminal_project' - Runs the terminal application
+ 
+GUI
+
+1. GUI Files are present in the GUI folder
+ 
+   1.1 It contains the template folder having the template.html file
+ 
+   1.2 It contains the Dockerfile, requirements.txt file and the app.py file
+
+2. Need to specify port as 6007:9880 while exposing the GUI service
