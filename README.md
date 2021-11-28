@@ -68,5 +68,5 @@ GUI
 
 2. Need to specify port as 6007:9880 while exposing the GUI service
 
-![Uploading image.png…]()
+
 
