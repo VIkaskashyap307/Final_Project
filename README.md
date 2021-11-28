@@ -7,6 +7,7 @@ Docker Images
 4. Apache Spark: https://hub.docker.com/r/bitnami/spark
 5. Jupyter Notebook: https://hub.docker.com/r/jupyter/scipy-notebook
 6. Sonarqube: https://hub.docker.com/_/sonarqube
+7. GUI : https://hub.docker.com/r/vikaskashyap307/terminal_gui
 
 Steps for Docker image creation for terminal
 1. docker buildx build -t vikaskashyap307/terminal_project . --platform linux/amd64
