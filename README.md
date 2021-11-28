@@ -61,7 +61,7 @@ GUI
 
 1. GUI Files are present in the GUI folder
  
- 1.1 It contains the template folder having the template.html file
- 1.2 It contains the Dockerfile, requirements.txt file and the app.py file
+   1.1 It contains the template folder having the template.html file
+   1.2 It contains the Dockerfile, requirements.txt file and the app.py file
 
 2. Need to specify port as 6007:9880 while exposing the GUI service
