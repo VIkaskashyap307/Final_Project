@@ -56,3 +56,12 @@ Repeat same steps except steps 5,6,7 for all other services.
 
 Terminal Application 
 1. 'kubectl run -i --tty terminal-app --image=vikaskashyap307/terminal_project' - Runs the terminal application
+ 
+GUI
+
+1. GUI Files are present in the GUI folder
+ 
+ 1.1 It contains the template folder having the template.html file
+ 1.2 It contains the Dockerfile, requirements.txt file and the app.py file
+
+2. Need to specify port as 6007:9880 while exposing the GUI service
