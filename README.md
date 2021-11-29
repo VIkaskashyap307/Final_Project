@@ -36,8 +36,8 @@ Datanode
 5. Deploy to GKE, set environment variable as mentioned in https://github.com/big-data-europe/docker-hadoop/blob/master/docker-compose.yml corresponding to datanode
 6. Set the other 8 environment variables from https://github.com/big-data-europe/docker-hadoop/blob/master/hadoop.env (first 8)
 7. Deploy to the existing Kubernete cluster (as load balancer) and set replication to 2 in the YAML file from 3
-8. Change the value of SERVICE_Protection to <namnode-service-name>:9000 
-9. Change the value of CORE_CONF_fs_defaultFS to hdfs://<namnode-service-name>:9000 
+8. Change the value of SERVICE_Protection to namenode-service-name:9000 
+9. Change the value of CORE_CONF_fs_defaultFS to hdfs://namenode-service-name:9000 
 10. Wait for a couple of minutes for the datanodes to show up in the namenode service
  
 
@@ -67,3 +67,6 @@ GUI
    1.2 It contains the Dockerfile, requirements.txt file and the app.py file
 
 2. Need to specify port as 6007:9880 while exposing the GUI service
+
+
+
